@@ -59,11 +59,10 @@ random_matrix = randi([-10 10],2,3)
 example_code_name = fliplr(my_name);
 
 %% Challenge 3 
-% You saw how to calculate the mean defense power for different
+% You saw how to calculate the mean inflammation for different
 % dimensions
-% Now create a 2D array containing the hit points, special attack and
-% speed of each pokemon. Find the which power is maximum for each pokemon. 
-
+% Now create a variable that contains the maximum inflammation on each day
+% and another with the maximum for each patient
  
 % HINT: Using max on different dimensions is not exactly the same as mean -
 % check the documentation!!
