@@ -94,57 +94,20 @@ disp(['sum of positive values: ', num2str(total)])
 
 %% Challenge 2 - Extension
 
-% Using the commands we have learnt previously, write a script that 
-% loads in some patient data and select one patient vector 
-% (choose any patient you like HINT: remember how to slice a single vector 
-% out of a data matrix?). 
+%Using the commands we have learnt previously, write a script that loads in 
+%some Pokemon data and select one Pokemon vector randomly 
+%(choose any Pokemon you like  or use randi() command. 
+%HINT: remember how to slice a single vector out of a data matrix?). 
+%Analyse this Pokemon vector and display its Pokedex number if 
+%its before CP is greater than 10 or after CP is greater than 100 or player 
+%level is less than 30.
 
-% Loop through this patient vector and add up the number of days the patient’s 
-% inflammation was at least 10% higher than the mean value for that patient
+% Here are a few lines of code to get you started :)
 
-% HINTS
-% First clear the workspace
 clear;
 clc;
-
-% load patient data
-
-
-% select the first patient to analyse
-
-
-% find the mean value
-
-% find the mean + 10% of the mean
-
-% initialize the sum of days where the inflammation greater than
-% your threshold value
-
  
-% loop through each inflammation value,
-% if it is bigger than mean + (10% of mean)
-% add one to your total sum ...
+% Concatenate CP data
+Pokemon_CP_all = [Pokedex_Num CP_before CP_after Level];
 
-
-
-%% Challenge 3
-
-% How would you display the total number of negative and positive
-% numbers (without using a loop)
- 
-
-%% Challenge 3 - Extension
-
-% Modify your script that calculated the number of 
-% high inflammation days for one patient so that it 
-% does not require a loop to do so. 
-
-% HINT: one way to do this is to set a boundary 
-% condition equal to (mean + 10% of mean) inflammation. 
-% Then test when the patient vector is above the boundary 
-% condition using a command like this:
-
-% my_patient_vector >= threshold
-
-% You can even test two conditions at once:
-% (my_patient_vector >= lower_threshold) & (my_patient_vector <= upper_threshold)
+% Generate single random integer
