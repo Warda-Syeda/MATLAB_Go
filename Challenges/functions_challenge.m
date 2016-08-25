@@ -75,10 +75,10 @@ end
 
 
 %% Challenge #3
-% Make a function called “centre_shift” that will shift your data to a desired mean, 
-% and use it in your analyse_data.m script
+% Make a function called “random_placePokemon”that randomly selects a
+% pokemon based on its Pokedex number and places it on the map. 
 % Add documentation to your function so that if you type 
-% “help centre_shift” in the command line, useful information about 
+% “help random_placePokemon in the command line, useful information about 
 % how to use the function will show up
 
 
