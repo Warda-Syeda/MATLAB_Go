@@ -17,6 +17,7 @@
 % try it out! (highlight the following line and press F9)
 random_matrix = randi([-10 10],2,3)
 
+
 % __________ PART ONE ___________
 
 % Now can you use indexing to:
@@ -59,16 +60,16 @@ random_matrix = randi([-10 10],2,3)
 example_code_name = fliplr(my_name);
 
 %% Challenge 3 
-% You saw how to calculate the mean inflammation for different
+% You saw how to calculate the mean CP for different
 % dimensions
-% Now create a variable that contains the maximum inflammation on each day
-% and another with the maximum for each patient
+% Now create a variable that contains the maximum CP for each Pokemon
+% and another with the maximum before and after CP over all Pokemons.
  
 % HINT: Using max on different dimensions is not exactly the same as mean -
 % check the documentation!!
 
 
-%% Challenge 3 - EXTENSION 
-% Plot your result
+%% EXTENSION 
+% Plot your result (maximum CP for each Pokemon)
  
 %  Repeat for min and std. 
